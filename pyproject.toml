@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Bounce"
+version = "0.0.1"
+description = ""
+dependencies = [
+    "sympy ==1.12",
+    "matplotlib ==3.8.2",
+    "numpy ==1.26.2",
+    "notebook ==7.0.6",
+    "scipy ==1.11.4",
+]
